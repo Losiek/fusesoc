@@ -51,7 +51,7 @@ setup(
         "setuptools_scm; python_version>='3.7'",
     ],
     install_requires=[
-        "edalize>=0.4.1",
+        "edalize @ git+https://github.com/psi-chuffine/edalize.git@main",
         "pyparsing>=2.3.1",
         "pyyaml>=6.0",
         "simplesat>=0.8.0",
